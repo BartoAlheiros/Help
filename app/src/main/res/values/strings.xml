@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Help!</string>
+    <string name="tv_maozinha">Pedir uma maozinha.</string>
+    <string name="tv_servico">Procurar por serviço.</string>
+    <string name="tv_pedido">Do que voce precisa?</string>
+    <string name="et_pedido">Ex: entregar cartas, comprar algo, pedir uma carona, etc.</string>
+    <string name="title_activity_pedido_maps">Map</string>
+</resources>

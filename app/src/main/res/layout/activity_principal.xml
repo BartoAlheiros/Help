@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#c6740f">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:onClick="abrirMapa"
+        android:layout_width="121dp"
+        android:layout_height="117dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        app:srcCompat="@drawable/hand_18dp" />
+
+    <TextView
+        android:id="@+id/tv_maozinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tv_maozinha" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="125dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        app:srcCompat="@drawable/news" />
+
+    <TextView
+        android:id="@+id/tv_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tv_servico" />
+
+</LinearLayout>
