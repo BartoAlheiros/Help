@@ -3,6 +3,14 @@
     <string name="tv_maozinha">Pedir uma maozinha.</string>
     <string name="tv_servico">Procurar por serviço.</string>
     <string name="tv_pedido">Do que voce precisa?</string>
-    <string name="et_pedido">Ex: entregar cartas, comprar algo, pedir uma carona, etc.</string>
-    <string name="title_activity_pedido_maps">Map</string>
+    <string name="et_pedido">Ex: entregar cartas, comprar algo, carona...</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="tv_endereco">Nos diga onde você está:</string>
+    <string name="et_endereco">Ex: rua augusto campos, 22.</string>
+    <string name="bt_pronto">Pronto!</string>
+    <string name="title_activity_detalhar_pedido">Detalhar Pedido</string>
+    <string name="tv_detalhe_pedido">Forneça mais detalhes do seu pedido:</string>
+    <string name="et_detalhar_pedido">Aqui voce pode detalhar o seu pedido. Ex: Preciso de alguém que cuide do meu gato,
+    pois vou viajar 5 dias e não conheço vizinhos próximos.</string>
+    <string name="bt_detalhes_pronto">Pronto para postar!</string>
 </resources>
