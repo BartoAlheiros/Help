@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorBackground"
+    android:background="@color/colorBackgroundList"
     tools:context=".view.NovoPedidoActivity"
     xmlns:tools="http://schemas.android.com/tools">
 
