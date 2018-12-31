@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
 
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="-29dp"
+        android:layout_toLeftOf="@id/nome_solict"
+        app:srcCompat="@drawable/ic_user_silhouette" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/nome_solict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/autor"
+        android:textColor="#00a7f5"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/bairro_solict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/bairro"
+        android:textColor="#00a7f5"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/cidade_solict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/cidade"
+        android:textColor="#00a7f5"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-348dp"
+        android:layout_marginBottom="38dp"
+        android:layout_toLeftOf="@id/nome_solict"
+        android:text="Preciso de alguém pra levar o Silas pra passear."
+        android:textColor="#0a0909"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

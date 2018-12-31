@@ -13,4 +13,7 @@
     <string name="et_detalhar_pedido">Aqui voce pode detalhar o seu pedido. Ex: Preciso de alguém que cuide do meu gato,
     pois vou viajar 5 dias e não conheço vizinhos próximos.</string>
     <string name="bt_detalhes_pronto">Pronto para postar!</string>
+    <string name="autor"><u>Fulano de Tal</u></string>
+    <string name="bairro"><u>Rio Doce</u></string>
+    <string name="cidade"><u>Olinda</u></string>
 </resources>

@@ -37,6 +37,8 @@ public class PedidoListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View v = View.inflate(mContext, R.layout.)
+        View v = View.inflate(mContext, R.layout.item_pedido_list,null);
+
+        return null;
     }
 }
