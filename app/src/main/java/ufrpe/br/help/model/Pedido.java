@@ -1,12 +1,6 @@
 package ufrpe.br.help.model;
 
 import java.sql.Blob;
-import java.sql.Date;
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-
 
 public class Pedido {
 
@@ -15,16 +9,26 @@ public class Pedido {
     private String bairro;
     private String cidade;
     private String desc;
-    private Date data;
+    private String data;
     private Blob img;
 
-    public Pedido(String nome_solict, String bairro, String cidade, String desc, Date data, Blob img) {
+    public Pedido(int id, String nome_solict, String bairro, String cidade, String desc, String data, Blob img) {
+        this.id = id;
         this.nome_solict = nome_solict;
         this.bairro = bairro;
         this.cidade = cidade;
         this.desc = desc;
         this.data = data;
         this.img = img;
+    }
+
+    public Pedido(int id, String nome_solict, String bairro, String cidade, String desc, String data) {
+        this.id = id;
+        this.nome_solict = nome_solict;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.desc = desc;
+        this.data = data;
     }
 
     public int getId() {
@@ -67,11 +71,11 @@ public class Pedido {
         this.desc = desc;
     }
 
-    public Date getData() {
+    public String getData() {
         return data;
     }
 
-    public void setData(Date data) {
+    public void setData(String data) {
         this.data = data;
     }
 

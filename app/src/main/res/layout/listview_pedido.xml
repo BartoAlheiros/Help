@@ -11,9 +11,10 @@
     <include layout="@layout/toolbar"/>
 
     <ListView
+        android:id="@+id/listview_pedido"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:dividerHeight="5dp"
-        android:divider="@color/colorDivider"/>
+        android:divider="@color/colorDivider"
+        android:dividerHeight="5dp" />
 
 </LinearLayout>

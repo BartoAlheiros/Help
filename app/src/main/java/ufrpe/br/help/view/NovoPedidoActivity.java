@@ -6,10 +6,16 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import ufrpe.br.help.R;
+import ufrpe.br.help.model.Pedido;
 
 public class NovoPedidoActivity extends AppCompatActivity {
+
 
     public void botaoPronto(View view) {
         new AlertDialog.Builder(this)

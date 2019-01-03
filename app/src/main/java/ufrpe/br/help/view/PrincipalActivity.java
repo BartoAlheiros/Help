@@ -7,6 +7,7 @@ import android.view.View;
 import android.support.v7.widget.Toolbar;
 
 import ufrpe.br.help.R;
+import ufrpe.br.help.view.NovoPedidoActivity;
 
 public class PrincipalActivity extends AppCompatActivity {
 
@@ -18,9 +19,13 @@ public class PrincipalActivity extends AppCompatActivity {
         setSupportActionBar(myToolbar);
     }
 
-    public void abrirPedidoActivity(View view){
-
+    public void abrirPedidoActivity(){
         Intent intent = new Intent(this, NovoPedidoActivity.class);
+        startActivity(intent);
+    }
+
+    public void abrirNoticiasActivity() {
+        Intent intent = new Intent(this, ListaPedidosActivity.class);
         startActivity(intent);
     }
 
